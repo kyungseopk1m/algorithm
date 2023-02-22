@@ -61,11 +61,14 @@ public class Code2 {
 		uArray[count++] = new User("test9", "1234", "홍길동9", 25);
 		uArray[count++] = new User("test10", "1234", "홍길동10", 25);
 		
+		
 		// 고전
 		for(int i = 0; i< uArray.length; i++) {
 			System.out.println(uArray[i]);
 		}
 		System.out.println("----------------------------------------------");
+		
+		
 		
 		// 요새 많이씀
 		for(User u : uArray) {
@@ -73,6 +76,7 @@ public class Code2 {
 		}
 		System.out.println("----------------------------------------------");
 			
+		
 		
 		// 4. 객체 배열 순회하기
 		// ID/PW를 입력받고, 10개에 데이터 중 존재하는지 ID로 확인하고, 로그인 가능한지 확인해주세요.
