@@ -1,6 +1,7 @@
 package com.challenge;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Code1 {
 	
@@ -60,10 +61,29 @@ public class Code1 {
 			System.out.println("5의 배수");
 		}
 		
-		
 		//2.2 // 1~300 중에 한수를 입력받고, 
 			  // 1~100이하 구간, 100초과 ~ 200 이하 구간, 200~초과 구간으로 분리하여 출력하세요.
 		      // 50 = 1~100 구간 , 124 = 100~200구간
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("정수를 입력하세요.");
+		int num = sc.nextInt();
+		
+		switch(num / 100) {
+		case 0:
+			System.out.println("1~100 구간");
+			break;
+		case 1:
+			if (num <= 200) {
+				System.out.println("100~200 구간");
+			} else {
+				System.out.println("200~초과 구간");
+			}
+			break;
+			default:
+				System.out.println("200초과 구간");
+				break;
+		}
 
 		//2.3 switch문을 통해 숫자와 문자를 구별하는 코드를 작성하세요.
 		
