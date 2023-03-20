@@ -87,9 +87,11 @@ public class Code1 {
 		}
 
 		//2.3 switch문을 통해 숫자와 문자를 구별하는 코드를 작성하세요.
-		Scanner sc = new Scanner(System.in);
-		System.out.println("숫자 또는 문자를 입력하세요.");
-		String input = sc.nextLine();
+		
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("숫자 또는 문자를 입력하세요.");
+//		String input = sc.nextLine();
+		String input = "3";
 		
 		switch (input.charAt(0)) {
 		case '0':
@@ -109,17 +111,20 @@ public class Code1 {
 			break;
 		}
 		
-		
-		
 		//2.4 ID/PW를 입력받고, ID가 5글자 이상이고, ID에 PW가 포함되지 않은 상태를
  		//    if문 하나로 체크해주세요.
 		
-//		String id = "asdas";
-//		String pw = "1212";
-//		
-//		if(id.length() < 5 || id.contains(pw)) {
-//			System.out.println("잘못된 경우입니다.");
-//		}
+		Scanner sc = new Scanner(System.in);
+		System.out.println("ID를 입력해주세요.");
+		String id = sc.nextLine();
+		System.out.println("PW를 입력해주세요.");
+		String pw = sc.nextLine();
+		
+		if(id.length() < 5 || id.contains(pw)) {
+			System.out.println("잘못된 경우입니다.");
+		} else {
+			System.out.println("로그인 성공!");
+		}
 				
 				
 		
