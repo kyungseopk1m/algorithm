@@ -37,29 +37,28 @@ public class Code1 {
 		byte b = (byte) 128;
 		System.out.println(b);
 		
-		
-		
 //		2. 각종 연산자와 if문 Switch문 함께 사용하기
 		// Ex) val2라는 인자가 100보다 큰지 확인하고, 결과 '예' '아니오' 출력하기
 		
-//		int val2 = 123;
-//		if(val2 > 100) {
-//			System.out.println("예");
-//		}else {
-//			System.out.println("아니오");
-//		}
+		int val2 = 123;
+		if(val2 > 100) {
+			System.out.println("예");
+		}else {
+			System.out.println("아니오");
+		}
 		
 		//2.1 한수를 입력받아 2의 배수, 3의 배수, 5의 배수인지 확인하세요. 
 		
-//		int num21 =0;
-//		if(num21 % 2 == 0) {
-//		}
-//		if(num21 % 3 == 0) {
-//			
-//		}
-//		if(num21 % 5 == 0) {
-//			
-//		}
+		int num21 = 12;
+		if(num21 % 2 == 0) {
+			System.out.println("2의 배수");
+		}
+		if(num21 % 3 == 0) {
+			System.out.println("3의 배수");
+		}
+		if(num21 % 5 == 0) {
+			System.out.println("5의 배수");
+		}
 		
 		
 		//2.2 // 1~300 중에 한수를 입력받고, 
