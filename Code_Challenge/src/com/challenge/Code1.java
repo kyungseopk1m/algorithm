@@ -65,9 +65,10 @@ public class Code1 {
 			  // 1~100이하 구간, 100초과 ~ 200 이하 구간, 200~초과 구간으로 분리하여 출력하세요.
 		      // 50 = 1~100 구간 , 124 = 100~200구간
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("정수를 입력하세요.");
-		int num = sc.nextInt();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("정수를 입력하세요.");
+//		int num = sc.nextInt();
+		int num = 124;
 		
 		switch(num / 100) {
 		case 0:
@@ -86,6 +87,28 @@ public class Code1 {
 		}
 
 		//2.3 switch문을 통해 숫자와 문자를 구별하는 코드를 작성하세요.
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자 또는 문자를 입력하세요.");
+		String input = sc.nextLine();
+		
+		switch (input.charAt(0)) {
+		case '0':
+		case '1':
+		case '2':
+		case '3':
+		case '4':
+		case '5':
+		case '6':
+		case '7':
+		case '8':
+		case '9':
+			System.out.println("입력한 값은 숫자입니다.");
+			break;
+		default:
+			System.out.println("입력한 값은 문자입니다.");
+			break;
+		}
+		
 		
 		
 		//2.4 ID/PW를 입력받고, ID가 5글자 이상이고, ID에 PW가 포함되지 않은 상태를
