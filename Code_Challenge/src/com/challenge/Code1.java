@@ -172,6 +172,7 @@ public class Code1 {
 		//     3의 배수이면서 4의 배수인 수를 모두 찾고,
 		//     이중에 20번을 찾으면 반복문 정지하기.
 		
+		/**
 		int count = 1;
 		for(int i = 1; i <= 1000; i++) {
 			if(i%3 == 0 && i%4 == 0) {
@@ -183,6 +184,7 @@ public class Code1 {
 				}
 			}
 		}
+		*/
 		
 //		4. 중첩 반복문
 		// 4.1 구구단 1단부터 9단까지 모두 출력하는데, 단이 바뀔때마다 "x단" 표시하기
@@ -190,12 +192,12 @@ public class Code1 {
 		//     3단 시작!
 		//     3 X 1 = 3
 		
-//		for(int i = 2; i < 10; i++) { // 2 ~ 9
-//			System.out.println(i+"단 시작");
-//			for(int j=2; j < 10; j++) { // 2 ~ 9
-//				System.out.println(j +" X "+ i + " = " + (i*j));
-//			}
-//		}
+		for(int i = 2; i < 10; i++) {
+			System.out.println(i + "단 시작!");
+			for(int j = 1; j < 10; j++) {
+				System.out.println(i + " X " + j + " = " + (i*j));
+			}
+		}
 		
 		// 4.2 구구단 1단부터 9단까지 모두 출력하는데
 		// 9단까지 가로로 출력하기
