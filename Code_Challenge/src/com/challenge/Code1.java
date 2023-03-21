@@ -206,34 +206,37 @@ public class Code1 {
 		// ex) 2X1=1 3X1=3 4X1=4 ...
 		//     2X2=2 3X2=6 4X2=8
 		
-		
+		/**
 		for(int i = 2; i < 10; i++) {
 			for(int j = 1; j < 10; j++) {
 				System.out.print(i + " X " + j + " = " + (i*j) +"\t");
 			}
 			System.out.println();
 		}
-		
-		
+		*/
 		
 		// 4.3 사용자에게 1~100 수중 2개를 입력 받고, 두 수의 범위 안의 숫자 모두 출력하기.
 		//     단, 무한 반복하기.
 		// 입력 53, 47
 		// 출력 48, 49, 50, 51, 52
 		
-//		int num1  = 30; 
-//		int num2  = 40; 
-//
-//		if(num1 > num2) {
-//			int temp = num1;
-//			num1 = num2;
-//			num2 = temp;
-//		}
-//		
-//		for(int i = num1 ; i <= num2; i++) {
-//			System.out.println(i);
-//		}
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("1~100 범위 안에서 숫자 하나를 먼저 입력하세요.");
+//		int num43 = sc.nextInt();
+//		System.out.println("1~100 범위 안에서 나머지 숫자 하나를 입력하세요.");
+//		int num44 = sc.nextInt();
+		int num43 = 30;
+		int num44 = 35;
 		
+		if(num43 > num44) {
+			int temp = num43;
+			num43 = num44;
+			num44 = temp;
+		}
+		
+		for(int i = num43; i <= num44; i++) {
+//			System.out.print(i + "\t");
+		}
 		
 		
 //		5. 배열
