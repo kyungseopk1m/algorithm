@@ -114,11 +114,14 @@ public class Code1 {
 		//2.4 ID/PW를 입력받고, ID가 5글자 이상이고, ID에 PW가 포함되지 않은 상태를
  		//    if문 하나로 체크해주세요.
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.println("ID를 입력해주세요.");
-		String id = sc.nextLine();
-		System.out.println("PW를 입력해주세요.");
-		String pw = sc.nextLine();
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("ID를 입력해주세요.");
+//		String id = sc.nextLine();
+//		System.out.println("PW를 입력해주세요.");
+//		String pw = sc.nextLine();
+		String id = "asdfgh";
+		String pw = "qwert";
+		
 		
 		if(id.length() < 5 || id.contains(pw)) {
 			System.out.println("잘못된 경우입니다.");
@@ -126,18 +129,16 @@ public class Code1 {
 			System.out.println("로그인 성공!");
 		}
 				
-				
-		
-		
 		
 //		3. 반복문
 		// ex) 1~10까지 출력하기
 		
-//		for(int i = 0; i<10; i++) {
+		for(int i = 0; i<10; i++) {
 //			System.out.println(i);
-//		}
-//		
+		}
+		
 //		// 3.1 구구단 2단만 출력하기 ex) 2 X 1 = 2 꼴로
+		
 //		for(int i=1; i<=9; i++) {
 //			System.out.println("2 X " + i +" = " + (i*2));
 //		}
