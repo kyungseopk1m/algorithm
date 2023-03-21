@@ -139,9 +139,10 @@ public class Code1 {
 		
 //		// 3.1 구구단 2단만 출력하기 ex) 2 X 1 = 2 꼴로
 		
-//		for(int i=1; i<=9; i++) {
-//			System.out.println("2 X " + i +" = " + (i*2));
-//		}
+		for(int i=1; i<10; i++) {
+			System.out.println("2 X " + i + " = " + (i*2));
+		}
+		
 		
 		// 3.2 1부터 100까지 짝수만 골라서 출력하기
 		
