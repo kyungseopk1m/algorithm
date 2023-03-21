@@ -192,17 +192,29 @@ public class Code1 {
 		//     3단 시작!
 		//     3 X 1 = 3
 		
+		/**
 		for(int i = 2; i < 10; i++) {
 			System.out.println(i + "단 시작!");
 			for(int j = 1; j < 10; j++) {
 				System.out.println(i + " X " + j + " = " + (i*j));
 			}
 		}
+		*/
 		
 		// 4.2 구구단 1단부터 9단까지 모두 출력하는데
 		// 9단까지 가로로 출력하기
 		// ex) 2X1=1 3X1=3 4X1=4 ...
 		//     2X2=2 3X2=6 4X2=8
+		
+		
+		for(int i = 2; i < 10; i++) {
+			for(int j = 1; j < 10; j++) {
+				System.out.print(i + " X " + j + " = " + (i*j) +"\t");
+			}
+			System.out.println();
+		}
+		
+		
 		
 		// 4.3 사용자에게 1~100 수중 2개를 입력 받고, 두 수의 범위 안의 숫자 모두 출력하기.
 		//     단, 무한 반복하기.
