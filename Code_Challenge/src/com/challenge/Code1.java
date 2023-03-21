@@ -140,7 +140,7 @@ public class Code1 {
 //		// 3.1 구구단 2단만 출력하기 ex) 2 X 1 = 2 꼴로
 		
 		for(int i=1; i<10; i++) {
-			System.out.println("2 X " + i + " = " + (i*2));
+//			System.out.println("2 X " + i + " = " + (i*2));
 		}
 		
 		// 3.2 1부터 100까지 짝수만 골라서 출력하기
@@ -153,14 +153,20 @@ public class Code1 {
 		
 		// 3.3 1부터 100까지 수 중에 5의 배수와 7의 배수를 확인하고 출력하기.
 		
-//		for(int i = 1; i <= 100; i++) { // 1 ~ 100
-//			if(i%5 == 0) {
-//				System.out.println("5의 배수입니다.");
-//			}
-//			if(i%7 == 0) {
-//				System.out.println("7의 배수입니다.");
-//			}
-//		}
+		/**
+		for(int i = 1; i <= 100; i++) {
+			if(i%5 == 0 && i%7 == 0) {
+				System.out.println(i + "는 5와 7의 배수입니다.");
+				continue;
+			}
+			if(i%5 == 0) {
+				System.out.println(i + "는 5의 배수입니다.");
+			}
+			if(i%7 == 0) {
+				System.out.println(i + "는 7의 배수입니다.");
+			}
+		}
+		*/
 		
 		// 3.4 1부터 1000까지 수 중에 
 		//     3의 배수이면서 4의 배수인 수를 모두 찾고, &&
