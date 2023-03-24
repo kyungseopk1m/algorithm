@@ -1,4 +1,4 @@
-package com.programmers;
+package com.programmers.mar23;
 
 import java.util.Scanner;
 
