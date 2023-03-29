@@ -13,7 +13,12 @@ public class intro230329_1 {
 			my_string = my_string.replaceAll("[a-z]", "");
 			
 			String[] arr = my_string.split("");
-	        int[] answer = {};
+	        int[] answer = new int[arr.length];
+	        
+	        for (int i = 0; i < arr.length; i++) {
+	        	answer[i] = Integer.parseInt(arr[i]);
+	        }
+	        Arrays.sort(answer);
 	        
 	        return answer;
 	    }
@@ -23,7 +28,7 @@ public class intro230329_1 {
 		intro230329_1 obj = new intro230329_1();
 		String my_string = "hi12392";
 		int[] result = obj.solution(my_string);
-		System.out.println(result);
+		System.out.println(Arrays.toString(result));
 	}
 
 }
