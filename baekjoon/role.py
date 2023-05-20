@@ -4,3 +4,6 @@
 # [CFS] - 코드포스
 # [SEA] - 삼성SW Expert Academy
 # [ETC] - 그외
+
+for i in range(3):
+    print(i)
