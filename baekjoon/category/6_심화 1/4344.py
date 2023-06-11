@@ -8,4 +8,4 @@ for i in range(A):
         if score > avg:
             cnt += 1 # 평균 이상인 학생수
     rate = cnt/nums[0] * 100
-    print('{0:0.3f}%'.format(rate))
+    print('{0:0.3f}%'.format(rate)) # 소수점 세자리까지
