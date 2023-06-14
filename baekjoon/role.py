@@ -5,5 +5,10 @@
 # [SEA] - 삼성SW Expert Academy
 # [ETC] - 그외
 
-for i in range(3):
-    print(i)
+n = int(input())
+
+result = 1
+if n > 0:
+    for i in range(1, n+1):
+        result *= i
+print(result)
